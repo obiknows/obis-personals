@@ -1,15 +1,16 @@
 the personals
 =============
 
-Welcome!
+welcome 2 my site repo. i got all the instructions so you can do it too ( no prob bruh )
 
-To do this yourself:
+*[image preview]*
 
-1. Download a theme into the same-named folder.
-   Choose a theme from https://themes.gohugo.io/, or
-   create your own with the "hugo new theme <THEMENAME>" command.
-2. Perhaps you want to add some content. You can add single files
-   with "hugo new <SECTIONNAME>/<FILENAME>.<FORMAT>".
-3. Start the built-in live server via "hugo server".
+to be hosted at: https://obi.obiknows.co
 
-Visit https://gohugo.io/ for quickstart guide and full documentation.
+### Preview
+
+See it live [here](https://obi.obiknows.co)
+
+### Them Instructions
+
+
