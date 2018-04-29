@@ -16,19 +16,29 @@ theme                   = "obi"
     footerText          = "Call me Obi, a theme by obiknows"
 
 # Metadata
-    description         = "A new Hugo site."            # Max 160 characters show in search results
+    description         = "An Obi Knows site."            # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
     primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
+# Front Page Sections
+
 [[params.mainMenu]]
-    link = "/posts"
-    text = "writing"
+    link = "/hacks"
+    text = "obi got codes"
 
 [[params.mainMenu]]
     link = "/gallery"
-    text = "gallery"
+    text = "obi got pics"
+    
+[[params.mainMenu]]
+    link = "/gallery"
+    text = "obi got beats"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "obi writes"
 
 [[params.mainMenu]]
     link = "/about"
-    text = "who is sam?"
+    text = "who is obi?"
     
