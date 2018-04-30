@@ -1,13 +1,12 @@
 ---
 title: "About"
-date: 2018-02-13T13:42:49-05:00
+date: 2018-04-29T18:44:18-07:00
 ---
 
-Yo, whats good,  I'm Obi. I'm a .... I'm a hacker, producer, and serial entrpreneur and investor.
+Yo, whats good,  I'm Obi. I'm a .... I'm a hacker, producer, and serial entrepreneur and farmer.
 
-I have slick minimalist templates for list pages (such as a list of blog posts) and single pages (a page to read one blog post). You can use tags on your content, and view content by tags.
+I got a lot of interests, so its kinda hard for me to sit still. So I made this site to showcase a few
 
-I also have a simple responsive gallery built with CSS grid. It'll look great on any screen, and all you have to do is provide a folder of images.
 
 I gotta thank [Vicky Lai](https://vickylai.io) for this design.
 

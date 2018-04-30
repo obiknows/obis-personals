@@ -1,6 +1,6 @@
-baseurl                 = "/"               # Your domain name. Must end with "/"
+baseurl                 = "https://obi.obiknows.co/"               # Your domain name. Must end with "/"
 languageCode            = "en-us"
-title                   = "Call me Obi"
+title                   = "call me Obi"
 theme                   = "obi"
 # googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
 
@@ -13,7 +13,7 @@ theme                   = "obi"
     homepage            = "main"                        # What to call the home page link
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
     clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Call me Obi, a theme by obiknows"
+    footerText          = "Obi Knows Co."
 
 # Metadata
     description         = "An Obi Knows site."            # Max 160 characters show in search results
@@ -23,15 +23,15 @@ theme                   = "obi"
 # Front Page Sections
 
 [[params.mainMenu]]
-    link = "/hacks"
-    text = "obi got codes"
+    link = "/code"
+    text = "obi knows code"
 
 [[params.mainMenu]]
     link = "/gallery"
-    text = "obi got pics"
-    
+    text = "obi makes flicks"
+
 [[params.mainMenu]]
-    link = "/gallery"
+    link = "/beats"
     text = "obi got beats"
 
 [[params.mainMenu]]

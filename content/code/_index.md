@@ -1,10 +1,11 @@
 ---
-title: "Posts"
-date: 2018-02-13T12:21:57-05:00
-
+title: "Code"
+date: 2018-04-28T19:33:13-07:00
+draft: true
 ---
 
-Glad you wanna see the thoughts I write out 
+
+Glad you wanna see the code I write! 
 
 Peep some below
 
