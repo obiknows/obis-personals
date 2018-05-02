@@ -1,10 +1,10 @@
 ---
-title: "Posts"
+title: "Organized Letters"
 date: 2018-02-13T12:21:57-05:00
 
 ---
 
-Glad you wanna see the thoughts I write out 
+Glad you wanna see the words I write out 
 
 Peep some below
 

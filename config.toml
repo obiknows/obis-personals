@@ -10,7 +10,7 @@ theme                   = "obi"
     favicon             = "/obi.ico"
     pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
-    homepage            = "main"                        # What to call the home page link
+    homepage            = "🏡"                        # What to call the home page link
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
     clickablePhotos     = true                          # Allow links to the full size images
     footerText          = "Obi Knows Co."
@@ -27,16 +27,17 @@ theme                   = "obi"
     text = "obi knows code"
 
 [[params.mainMenu]]
-    link = "/gallery"
-    text = "obi makes flicks"
-
-[[params.mainMenu]]
     link = "/beats"
     text = "obi got beats"
 
 [[params.mainMenu]]
+    link = "/research"
+    text = "obi does research"
+
+
+[[params.mainMenu]]
     link = "/posts"
-    text = "obi writes"
+    text = "obi writes words"
 
 [[params.mainMenu]]
     link = "/about"
