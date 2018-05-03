@@ -7,7 +7,7 @@ draft: true
 
 Glad you wanna see the code I write! 
 
-Peep some below
+Peep some below or see it on [the github](https://github.com/obiknows)
 
 
 

@@ -1,6 +1,6 @@
 baseurl                 = "https://obi.obiknows.co/"               # Your domain name. Must end with "/"
 languageCode            = "en-us"
-title                   = "call me Obi"
+title                   = "yo its Obi"
 theme                   = "obi"
 googleAnalytics         = "UA-118672950-1"             # Tracking code, eg. "UA-111111111-1"
 
