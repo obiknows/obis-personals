@@ -3,15 +3,26 @@ title: "Starch: Is It Real?"
 date: 2018-04-29T20:35:39-07:00
 draft: true
 showDate: true
-# tags: ["starch","bioplastics","patents"]
+tags: ["starch","bioplastics"]
 ---
 
-This is about food.
+This is about food. Or what we consider "food" today. (Technically speaking these are food products)
 
-I think starch only exists in unnatural foods. Lets test some natureal ones and some that I believe aren't as natural for the presence of starch
+I think starch only exists in unnatural foods. 
+
+Actually... lemme run that back.
+I *know* (b/c Obi Knows™️) that starch is
+
+ Lets test some natural ones and some that I aren't as natural for the presence of starch.
 
 
-### TODOS
+ How so?
+
+
+ With Iodine of course! see a quick test [here](https://youtu.be/SgDeHXWm8Hk?t=17s)
+
+
+### Experiment Todos
 
 ```
 1. design an experiment to show the presence of starch in unnatural foods / products
@@ -22,9 +33,10 @@ I think starch only exists in unnatural foods. Lets test some natureal ones and 
 ```
 
 
-### Releated Info and Patent Research
+### Related Info and Patent Research
 
-##### Infos
+##### More Info
+- [Iodine and Starch, Why this works](https://chem.libretexts.org/Core/Biological_Chemistry/Carbohydrates/Case_Studies/Starch_and_Iodine)
 - [A Short, Incomplete, Timeline of Biochemistry](https://geneticliteracyproject.org/2017/07/18/biotechnology-timeline-humans-manipulating-genes-since-dawn-civilization/)
 
 ##### Patents
