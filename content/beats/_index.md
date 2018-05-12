@@ -6,4 +6,4 @@ draft: true
 
 I do I do. Peep some heat on my soundcloud.
 
-[https://soundcloud.com/obigotbeats](https://soundcloud.com/obigotbeats)
+[https://soundcloud.com/obigotbeats/tracks](https://soundcloud.com/obigotbeats/tracks)
