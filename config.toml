@@ -24,22 +24,26 @@ googleAnalytics         = "UA-118672950-1"             # Tracking code, eg. "UA-
 
 [[params.mainMenu]]
     link = "/code"
-    text = "obi knows code"
+    text = "obi knows' code 💻"
 
 [[params.mainMenu]]
     link = "/beats"
-    text = "obi got beats"
+    text = "obi got beats 🥁"
 
 [[params.mainMenu]]
     link = "/research"
-    text = "obi does research"
+    text = "obi does research 🔬"
 
+
+[[params.mainMenu]]
+    link = "/pics"
+    text = "obi takes pics 📸"
 
 [[params.mainMenu]]
     link = "/posts"
-    text = "obi writes words"
+    text = "obi writes words ✍🏿"
 
 [[params.mainMenu]]
     link = "/about"
-    text = "who is obi?"
+    text = "who is obi? 🐝"
     
