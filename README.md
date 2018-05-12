@@ -11,6 +11,8 @@ to be hosted at: https://obi.obiknows.co
 
 See it live [here](https://obi.obiknows.co)
 
-### Them Instructions
+### TODOS
+
+1. add in Docker support from [here](https://hub.docker.com/r/giantswarm/hugo/)
 
 
