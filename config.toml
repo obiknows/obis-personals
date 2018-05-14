@@ -1,12 +1,12 @@
 baseurl                 = "https://obi.obiknows.co/"               # Your domain name. Must end with "/"
 languageCode            = "en-us"
-title                   = "yo its Obi"
+title                   = "its Obi"
 theme                   = "obi"
 googleAnalytics         = "UA-118672950-1"             # Tracking code, eg. "UA-111111111-1"
 
 [params]
-    dateform            = "Mon Jan 02, 2006"
-    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    dateform            = "Mon May 14, 2018"
+    dateformfull        = "Mon May 14, 2018 15:04:05 EST"
     favicon             = "/obi.ico"
     pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
