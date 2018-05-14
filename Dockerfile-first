@@ -1,0 +1,37 @@
+# [---------------------------------]
+#   OBI's Personal Site, Dockerfile
+# [---------------------------------]
+# adapted from https://hub.docker.com/r/giantswarm/hugo/~/dockerfile/
+
+# BASE OS
+FROM alpine:3.1
+
+LABEL version="obi-personal site - version 1"
+
+ENV aha=obis-personals
+ARG HUGO_SITE_NAME
+ENV HUGO_SITE_NAME $aha
+RUN echo "[+] Now Creating --> '$aha'"
+
+# set the HUGO Version
+ENV HUGO_VERSION 0.14
+
+WORKDIR /site
+
+# Install HUGO
+RUN set -x && \
+  apk add --update wget ca-certificates && \
+  wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux_amd64.tar.gz && \
+  tar xzf hugo_${HUGO_VERSION}_linux_amd64.tar.gz && \
+  rm -r hugo_${HUGO_VERSION}_linux_amd64.tar.gz && \
+  mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo && \
+  rm -r hugo_${HUGO_VERSION}_linux_amd64 && \
+  apk del wget ca-certificates && \
+  rm /var/cache/apk/* 
+
+COPY . /site
+# set the path
+# ENV PATH="/usr/bin:$PATH"
+
+# ENTRYPOINT ["hugo server"]
+ENTRYPOINT ["/usr/bin/hugo server"]
