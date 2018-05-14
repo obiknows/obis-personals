@@ -1,0 +1,20 @@
+{
+	"Email": "",
+	"Registration": {
+		"body": {
+			"resource": "reg",
+			"id": 34959619,
+			"key": {
+				"kty": "EC",
+				"crv": "P-384",
+				"x": "vGqRfKT5hHyGN-nfFs4BILldcLvsqYtRrEz_-ndIqzFOTSGGwLGQFwh8wCy6WB0c",
+				"y": "nriCYbfNqMV5mewvfNbo2pkhifk5_sV-gYScKzwKqhpC_WcIfYLfpnAqFnzLOQel"
+			},
+			"contact": [],
+			"agreement": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf"
+		},
+		"uri": "https://acme-v01.api.letsencrypt.org/acme/reg/34959619",
+		"new_authzr_uri": "https://acme-v01.api.letsencrypt.org/acme/new-authz",
+		"terms_of_service": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf"
+	}
+}

@@ -1,5 +1,6 @@
 # hugo build box
 hugo:
+  container_name: hugo
   image: jojomi/hugo:latest
   volumes:
     - ./src/:/src
@@ -7,22 +8,34 @@ hugo:
   environment:
     - HUGO_REFRESH_TIME=3600
     - HUGO_THEME=obi
-    - HUGO_BASEURL=obi.obiknows.co
+    # - HUGO_BASEURL=obi.obiknows.co (add this when deployed)
   restart: always
 
 # web site server 
-web:
-  image: jojomi/nginx-static
-  volumes:
-    - ./output:/var/www
-  environment:
-    - VIRTUAL_HOST=obi.obiknows.co
+# web:
+#   image: jojomi/nginx-static
+#   volumes:
+#     - ./output:/var/www
+#   environment:
+#     - VIRTUAL_HOST=obi.obiknows.co
+#   ports:
+#     - 80
+#     - 443
+#   restart: always
+
+# static caddy server 
+caddy:
+  container_name: caddy
+  image: zzrot/alpine-caddy
   ports:
-    - 80
-    - 443
+    - 80:80
+    - 443:443
+  volumes:
+    - ./output:/var/www/html
+    - ./Caddyfile:/etc/Caddyfile
+    - ./.caddy:/root/.caddy  # certificate persistence
   restart: always
 
-# proxy server (infront of web)
 # proxy:
 #   image: jwilder/nginx-proxy
 #   ports:
