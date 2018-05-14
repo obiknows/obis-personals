@@ -1,0 +1,34 @@
+# hugo build box
+hugo:
+  image: jojomi/hugo:latest
+  volumes:
+    - ./src/:/src
+    - ./output/:/output
+  environment:
+    - HUGO_REFRESH_TIME=3600
+    - HUGO_THEME=obi
+    - HUGO_BASEURL=obi.obiknows.co
+  restart: always
+
+# web site server 
+web:
+  image: jojomi/nginx-static
+  volumes:
+    - ./output:/var/www
+  environment:
+    - VIRTUAL_HOST=obi.obiknows.co
+  ports:
+    - 80
+    - 443
+  restart: always
+
+# proxy server (infront of web)
+# proxy:
+#   image: jwilder/nginx-proxy
+#   ports:
+#     - 80:80
+#     - 443:443
+#   volumes:
+#     - /var/run/docker.sock:/tmp/docker.sock
+#     - vhost.d:/etc/nginx/vhost.d:ro
+#   restart: always
