@@ -19,5 +19,5 @@ RUN tar xzf /usr/local/hugo/${HUGO_BINARY}.tar.gz -C /usr/local/hugo/ \
 RUN hugo
 
 # ...Then...Run NGINX with the compiled static site
-FROM nginx
+FROM nginx:alpine
 COPY --from=builder /obi-site/public /usr/share/nginx/html
