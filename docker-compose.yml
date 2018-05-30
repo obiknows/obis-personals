@@ -1,15 +1,15 @@
 # hugo build box
-hugo:
-  container_name: hugo
-  image: jojomi/hugo:latest
-  volumes:
-    - ./src/:/src
-    - ./output/:/output
-  environment:
-    - HUGO_REFRESH_TIME=3600
-    - HUGO_THEME=obi
-    # - HUGO_BASEURL=obi.obiknows.co (add this when deployed)
-  restart: always
+# hugo:
+#   container_name: hugo
+#   image: jojomi/hugo:latest
+#   volumes:
+#     - .:/src
+#     - ./build/:/output
+#   environment:
+#     - HUGO_REFRESH_TIME=3600
+#     - HUGO_THEME=obi
+#     # - HUGO_BASEURL=obi.obiknows.co (add this when deployed)
+#   # restart: always
 
 # web site server 
 # web:
@@ -25,16 +25,16 @@ hugo:
 
 # static caddy server 
 caddy:
-  container_name: caddy
-  image: zzrot/alpine-caddy
-  ports:
-    - 80:80
-    - 443:443
-  volumes:
-    - ./output:/var/www/html
-    - ./Caddyfile:/etc/Caddyfile
-    - ./.caddy:/root/.caddy  # certificate persistence
-  restart: always
+ container_name: caddy
+ image: zzrot/alpine-caddy
+ ports:
+   - 80:80
+   - 443:443
+ volumes:
+   - ./build:/var/www/html
+   - ./Caddyfile:/etc/Caddyfile
+   - ./.caddy:/root/.caddy  # certificate persistence
+ restart: always
 
 # proxy:
 #   image: jwilder/nginx-proxy
