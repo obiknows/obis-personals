@@ -13,6 +13,6 @@ See it live [here](https://obi.obiknows.co)
 
 ### TODOS
 
-1. add in Docker support from [here](https://hub.docker.com/r/giantswarm/hugo/)
-
+[] add in Docker support from [here](https://hub.docker.com/r/giantswarm/hugo/)
+[] replace `/tn.png` for the Twitters
 
