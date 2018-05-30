@@ -1,4 +1,4 @@
-# baseurl                 = "https://obi.obiknows.co/"               # Your domain name. Must end with "/"
+baseurl                 = "https://obi.obiknows.co/"               # Your domain name. Must end with "/"
 languageCode            = "en-us"
 title                   = "its Obi"
 theme                   = "obi"
