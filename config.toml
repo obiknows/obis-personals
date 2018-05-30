@@ -10,6 +10,7 @@ googleAnalytics         = "UA-118672950-1"             # Tracking code, eg. "UA-
     # dateform            = "Mon May 14, 2018"
     # dateformfull        = "Mon May 14, 2018 1:04:05 EST"
     favicon             = "/obi.ico"
+    pygmentsUseClassic  = true
     pygmentsStyle       = "monokai"                     # https://help.farbox.com/pygments.html
     pygmentsCodefences  = true
     homepage            = "🏡"                        # What to call the home page link

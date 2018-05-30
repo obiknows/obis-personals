@@ -1,0 +1,11 @@
+ {{ if .Get 0 }}
+<div class="{{ if .Get " class " }}{{ .Get "class " }}{{ else }}soundcloud-container{{ end }}">
+   <!-- 433310208 -->
+  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ index .Params 0 }}&color=%23040404&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+  <!-- <iframe src="//player.vimeo.com/video/{{ .Get " id " }}" allowfullscreen></iframe> -->
+</div>
+{{ else }}
+<!-- <div class="{{ if len .Params | eq 2 }}{{ .Get 1 }}{{ else }}soundcloud-container{{ end }}">
+  <iframe src="//player.vimeo.com/video/{{ .Get 0 }}" allowfullscreen></iframe>
+</div> -->
+{{ end }}
